@@ -1,0 +1,12 @@
+olumes:
+  nextcloud:
+    driver_opts:
+      type: none
+      device: $PWD/nextcloud
+      o: bind
+  db:
+    driver_opts:
+      type: none
+      device: $PWD/db
+      o: bind
+
