@@ -31,7 +31,7 @@ services:
       - code
 
   code:
-    image: collabora/code
+    image: collabora/code:6.4.11.3
     restart: always
     ports:
       - "9980:9980"
